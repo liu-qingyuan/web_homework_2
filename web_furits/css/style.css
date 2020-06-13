@@ -2,7 +2,7 @@
 * @Author: 14640
 * @Date:   2020-06-13 21:26:41
 * @Last Modified by:   14640
-* @Last Modified time: 2020-06-14 03:57:36
+* @Last Modified time: 2020-06-14 04:32:40
 */
 body
 {
@@ -315,7 +315,7 @@ input:checked + .slider:before
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 0.2px;
-    margin: 25px 0 0;
+    margin: 25px 0 30px 0;
     position: relative;
 }
 .section-title-furits > h2::before {
@@ -346,115 +346,6 @@ input:checked + .slider:before
     top: 6px;
     bottom: auto;
     transform: translate(-50%, -100%);
-}
-
-/* 23.5 Banner style 2 of fruits */
-
-.single-fruits-choose {
-    display: flex;
-    margin-bottom: 97px;
-}
-.fruits-choose-wrapper {
-    margin-top: 94px;
-}
-.fruits-choose-serial {
-    background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/50.png") no-repeat scroll center center / cover;
-    height: 104px;
-    margin-right: 30px;
-    text-align: center;
-    width: 103px;
-}
-.fruits-choose-serial > h3 {
-    color: #f8f7f7;
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    padding-top: 33px;
-}
-.fruits-choose-content > h4 {
-    color: #2d2d2d;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 25px;
-}
-.fruits-choose-content > p {
-    color: #666666;
-    font-size: 16px;
-    line-height: 26px;
-    margin: 0;
-    width: 57%;
-}
-.fruits-choose-title > h2 {
-    color: #e3ebd7;
-    font-size: 80px;
-    font-weight: 900;
-    letter-spacing: 0.2px;
-    margin: -12px 0 0 -53px;
-    text-transform: uppercase;
-}
-.fruits-banner2-wrapper a > img {
-    width: 100%;
-}
-.fruits-banner2-wrapper {
-    position: relative;
-}
-.fruits-banner2-content {
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 70px;
-}
-.fruits-banner2-content > h3 {
-    font-size: 54px;
-    font-weight: 200;
-    margin: 22px 0 0;
-    text-transform: uppercase;
-}
-.fruits-services-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 190px 0 305px;
-}
-.fruits-banner2-wrapper,
-.furits-banner-wrapper {
-    overflow: hidden;
-    transition: all .3s ease 0s;
-}
-.fruits-banner2-content > img,
-.fruits-banner2-wrapper > a img,
-.furits-banner-wrapper > img {
-    width: 100%;
-    transition: all 0.3s ease 0s;
-}
-.fruits-banner2-wrapper:hover img,
-.furits-banner-wrapper:hover img {
-    transform: scale(1.1);
-}
-
-/* 23.6 Services style of fruits */
-
-.single-fruits-services {
-    display: flex;
-}
-.fruits-services-content > h4 {
-    color: #666666;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-.fruits-services-content > p {
-    color: #363636;
-    margin: 0;
-    width: 76%;
-}
-.fruits-services-img {
-    margin-right: 30px;
-}
-.fruits-services-img > img {
-    width: 100%;
 }
 .tc
 {
@@ -576,7 +467,7 @@ input:checked + .slider:before
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 0.2px;
-    margin: 25px 0 0;
+    margin: 25px 0 30px 0;
     position: relative;
 }
 .section-title-furits > h2::before {
